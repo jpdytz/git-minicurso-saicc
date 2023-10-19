@@ -7,6 +7,7 @@ import MainPage from './pages/MainPage';
 
 import ProfileExample from './pages/ProfileExample';
 import BrenoProfile from './pages/profiles/BrenoProfile';
+import ProfileJPGuerra from './pages/profiles/ProfileJPGuerra';
 
 const DefaultLayout = React.lazy(() => import('./layout/DefaultLayout'));
 
@@ -21,6 +22,7 @@ function App() {
             
             <Route path="/example" element={<ProfileExample/>}/>
             <Route path="/breno" element={<BrenoProfile/>}/>
+            <Route path="/jp" element={<ProfileJPGuerra/>}/>
 
           </Route>
 
